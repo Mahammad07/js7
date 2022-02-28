@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+
+
+.A  {
+    width: 25%;
+    border: 1px double black;
+    font-size: 12px;
+    
+}
+
+#B{
+    border: 1px solid black;
+    width: 30%;
+}
+
+.Active{
+    background-color: aqua !important;
+    color: bisque;
+}
+
+.add{
+    background-color: aqua;
+    transition: .5;
+    
+}
+
+
+.all2{
+    width: 100%;
+    position: relative;
+}
+
+.all2 img{
+    width: 100%;
+}
+
+.arrow {
+    position: absolute;
+
+    
+}
+
+
+.arrow .right{
+    position: absolute;
+    background-color: white;
+    bottom: 300px;
+    left: 90rem;
+    font-size: 3rem;
+    border-radius: 50px;
+}
+
+
+.arrow .left{
+    position: absolute;
+    background-color: white;
+    bottom: 300px;
+    left: 3rem;
+    font-size: 3rem;
+    border-radius: 50px;
+}
+
+
+
+
+
+
